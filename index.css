@@ -1,0 +1,23 @@
+img{
+    width: 20rem;
+    aspect-ratio: 16/9;
+  
+}
+.container{
+    background-color: black;
+    padding: 1.5rem;
+display: grid;
+
+grid-auto-flow: column;
+grid-auto-columns: auto;
+gap: 1rem;
+overflow-x: auto;
+color: #fff;
+overscroll-behavior-inline: contain;
+
+}
+.content{
+    background-color: rgb(66, 62, 62);
+    padding: 1.3rem;
+    border: 5px solid rgb(22, 1, 1);
+}
